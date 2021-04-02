@@ -58,8 +58,8 @@ To Visit App:
 ## Contribute:
 --------------
 
-- Issue Tracker: github.com/gauravk268/React-Todo-App/issues
-- Source Code: github.com/gauravk268/React-Todo-App
+- Issue Tracker: http://github.com/gauravk268/React-Todo-App/issues
+- Source Code: http://github.com/gauravk268/React-Todo-App
 
 
 ## License:
