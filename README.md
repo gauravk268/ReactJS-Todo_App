@@ -1,18 +1,39 @@
-# To-Do app 
-(status: completed)
+# To-Do app
 
-#### A simple To-Do List App built with React, JavaScript and CSS.
 
-#### Want to see a hosted version? Goto: https://gauravk268dev-todo-app.netlify.app
+#### This To-Do App will solve your problem of noting down tasks that you have to do throughout the day or on any other day.
 
-## Functionalities:
-	- Add to-do item to the app
-	- Mark each to-do as completed or uncompleted
-	- Delete any to-do item
-	- Show all or completed/uncompleted to-do items
-	- Saves all to-do items in local storage so that it remains on refresh
+
+## Look how easy it is to use:
+------------------------------
+
+    - Just open [gauravk268dev-todo-app.netlify.app] in a browser on mobile or laptop
+    - start typing the tasks and click the add button to add that task in the list
+    - Once you have completed that task mark the checkbox on the left of the task
+    - If you want to remove a task from the list, just tap the remove icon
 	
-## Installation and Setup Instructions
+	
+## Features:
+------------
+
+	- Add task to the task list
+	- Tasks are marked uncompleted by default
+	- Mark a task as completed
+	- Remove a task from the list
+	- Tasks are retained even after refreshing
+	- Once page loading completed, the app can be used offline
+	
+	
+## Tech Stack Used:
+-------------------
+
+	- ReactJS
+	- JavaScript
+	- CSS
+	
+
+## Local Installation and Setup Instructions:
+---------------------------------------------
 
 Clone down this repository and cd to todo-app. You will need `node` and `npm` installed globally on your machine.  
 
@@ -31,4 +52,3 @@ To Start Server:
 To Visit App:
 
 `localhost:3000`
-	
