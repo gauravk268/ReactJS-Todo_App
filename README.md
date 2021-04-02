@@ -1,5 +1,6 @@
-# To-Do app
+# To-Do App
 
+#### Link to the live app: http://gauravk268dev-todo-app.netlify.app
 
 #### This To-Do App will solve your problem of noting down tasks that you have to do throughout the day or on any other day.
 
@@ -7,7 +8,7 @@
 ## Look how easy it is to use:
 ------------------------------
 
-    - Just open (gauravk268dev-todo-app.netlify.app) in a browser on mobile or laptop
+    - Just open the app link, in a browser on mobile or laptop
     - start typing the tasks and click the add button to add that task in the list
     - Once you have completed that task mark the checkbox on the left of the task
     - If you want to remove a task from the list, just tap the remove icon
@@ -57,7 +58,7 @@ To Visit App:
 ## Contribute:
 --------------
 
-- Issue Tracker: github.com/gauravk268/React-Todo-App
+- Issue Tracker: github.com/gauravk268/React-Todo-App/issues
 - Source Code: github.com/gauravk268/React-Todo-App
 
 
