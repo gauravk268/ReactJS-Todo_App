@@ -7,7 +7,7 @@
 ## Look how easy it is to use:
 ------------------------------
 
-    - Just open [gauravk268dev-todo-app.netlify.app] in a browser on mobile or laptop
+    - Just open (gauravk268dev-todo-app.netlify.app) in a browser on mobile or laptop
     - start typing the tasks and click the add button to add that task in the list
     - Once you have completed that task mark the checkbox on the left of the task
     - If you want to remove a task from the list, just tap the remove icon
@@ -52,3 +52,16 @@ To Start Server:
 To Visit App:
 
 `localhost:3000`
+
+
+## Contribute:
+--------------
+
+- Issue Tracker: github.com/gauravk268/React-Todo-App
+- Source Code: github.com/gauravk268/React-Todo-App
+
+
+## License:
+-----------
+
+The project is licensed under the Apache license.
