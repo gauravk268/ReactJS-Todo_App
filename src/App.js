@@ -1,7 +1,7 @@
-import React, {useState, useEffect } from 'react';
-import './App.css';
-import Form from './components/Form';
-import TodoList from './components/TodoList';
+import React, { useState, useEffect } from "react";
+import "./App.css";
+import Form from "./components/Form";
+import TodoList from "./components/TodoList";
 
 function App() {
   const [inputText, setInputText] = useState("");
@@ -14,37 +14,35 @@ function App() {
   }, []);
 
   useEffect(() => {
+    const filterHandler = () => {
+      switch (status) {
+        case "completed":
+          setFilteredTodos(todos.filter((todo) => todo.completed === true));
+          break;
+
+        case "uncompleted":
+          setFilteredTodos(todos.filter((todo) => todo.completed === false));
+          break;
+
+        default:
+          setFilteredTodos(todos);
+          break;
+      }
+    };
+
+    const saveLocalTodos = () => {
+      localStorage.setItem("todos", JSON.stringify(todos));
+    };
     // console.log("hey");
     filterHandler();
     saveLocalTodos();
   }, [todos, status]);
 
-  const filterHandler = () => {
-    switch (status) {
-      case 'completed':
-        setFilteredTodos(todos.filter(todo => todo.completed === true));
-        break;
-
-      case 'uncompleted':
-        setFilteredTodos(todos.filter(todo => todo.completed === false));
-        break;
-      
-      default:
-        setFilteredTodos(todos);
-        break;
-    }
-  };
-
-  const saveLocalTodos = () => {
-    localStorage.setItem('todos', JSON.stringify(todos));
-  };
-
   const getLocalTodos = () => {
-    if (localStorage.getItem('todos') === null) {
-      localStorage.setItem('todos', JSON.stringify([]));
-    }
-    else {
-      let todosLocal = JSON.parse(localStorage.getItem('todos'));
+    if (localStorage.getItem("todos") === null) {
+      localStorage.setItem("todos", JSON.stringify([]));
+    } else {
+      let todosLocal = JSON.parse(localStorage.getItem("todos"));
       setTodos(todosLocal);
     }
   };
@@ -62,10 +60,7 @@ function App() {
         setStatus={setStatus}
       />
 
-      <TodoList
-        setTodos={setTodos}
-        todos={filteredTodos}
-      />
+      <TodoList setTodos={setTodos} todos={filteredTodos} />
     </div>
   );
 }
