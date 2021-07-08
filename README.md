@@ -1,6 +1,6 @@
 # To-Do App
 
-#### Link to the live app: http://gauravk268dev-todo-app.netlify.app
+#### Link to the live app: [todo-app.gauravk.co](https://todo-app.gauravk.co)
 
 #### This To-Do App will solve your problem of noting down tasks that you have to do throughout the day or on any other day.
 
